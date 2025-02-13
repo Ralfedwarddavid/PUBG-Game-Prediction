@@ -27,12 +27,12 @@ The model's performance is evaluated using Root Mean Squared Error (RMSE), a com
 
 The dataset consists of 29 features, which include a combination of player statistics, game metrics, and equipment usage. Some examples of the features include:
 
-Type of weapons used
-Average headshot rate
-Player’s group rank
-Number of kills with different weapons
-Player’s location on the map
-Game time and survival rate
+1.Type of weapons used
+2.Average headshot rate
+3.Player’s group rank
+4.Number of kills with different weapons
+5.Player’s location on the map
+6.Game time and survival rate
 These features are used to train the CatBoost model, which predicts whether a player will win or lose based on their in-game data.
 
 # Why CatBoost?
@@ -44,18 +44,17 @@ Accuracy: CatBoost has proven success in machine learning competitions and provi
 
 # Data Wrangling
 Key steps involved in data wrangling:
-
-Removing irrelevant columns
-Handling missing data (imputation or removal)
-Encoding categorical features (using one-hot encoding or other techniques)
-Splitting data into training and test sets
+1.Removing irrelevant columns.
+2.Handling missing data (imputation or removal).
+3.Encoding categorical features (using one-hot encoding or other techniques).
+4.Splitting data into training and test sets
 
 # Feature Engineering
 In this step, new features were created and existing features were transformed to make them more useful for the model. Examples include:
 
-Normalization of features for better model performance.
-Feature combinations such as total kills from various weapons.
-Removing unnecessary features to reduce model complexity.
+1.Normalization of features for better model performance.
+2.Feature combinations such as total kills from various weapons.
+3.Removing unnecessary features to reduce model complexity.
 
 # Installation
 To run this project, you'll need to install the following dependencies:
